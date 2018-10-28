@@ -6,13 +6,17 @@ import { OffresComponent } from './offres/offres.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { VoyagerComponent } from './voyager/voyager.component';
+import { CultureComponent } from './culture/culture.component';
+import { FamilleComponent } from './famille/famille.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OffresComponent,
     HomeComponent,
-    VoyagerComponent
+    VoyagerComponent,
+    CultureComponent,
+    FamilleComponent
   ],
   imports: [
     BrowserModule,
