@@ -6,4 +6,12 @@
     min-height: 100%;
 }
 
+agm-map {
+    height: 300px;
+  }
+
+  #map {
+    height: 100%;
+  }
+
 

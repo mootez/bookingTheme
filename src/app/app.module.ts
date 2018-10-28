@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { OffresComponent } from './offres/offres.component';
@@ -39,7 +40,10 @@ import { GroupeComponent } from './groupe/groupe.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAMVIWOJ5dI68uNNezGdoT0YRN1RhhwFeU'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
