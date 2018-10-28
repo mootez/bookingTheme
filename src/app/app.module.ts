@@ -10,6 +10,14 @@ import { HomeComponent } from './home/home.component';
 import { VoyagerComponent } from './voyager/voyager.component';
 import { CultureComponent } from './culture/culture.component';
 import { FamilleComponent } from './famille/famille.component';
+import { VisiterComponent } from './visiter/visiter.component';
+import { PratiquerComponent } from './pratiquer/pratiquer.component';
+import { AmuserComponent } from './amuser/amuser.component';
+import { CoupleComponent } from './couple/couple.component';
+import { SoloComponent } from './solo/solo.component';
+import { JeuneAdosComponent } from './jeune-ados/jeune-ados.component';
+import { ScolaireComponent } from './scolaire/scolaire.component';
+import { GroupeComponent } from './groupe/groupe.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +26,15 @@ import { FamilleComponent } from './famille/famille.component';
     HomeComponent,
     VoyagerComponent,
     CultureComponent,
-    FamilleComponent
+    FamilleComponent,
+    VisiterComponent,
+    PratiquerComponent,
+    AmuserComponent,
+    CoupleComponent,
+    SoloComponent,
+    JeuneAdosComponent,
+    ScolaireComponent,
+    GroupeComponent
   ],
   imports: [
     BrowserModule,
