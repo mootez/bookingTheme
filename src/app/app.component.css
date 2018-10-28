@@ -74,22 +74,7 @@ body {
     background-image: url('../assets/images/bridge.jpg');
   }
   
-  #boxThree {
-    background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageThree.jpg');
-  }
-  
-  #boxSix {
-    background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageSix.jpg');
-  }
-  
-  #boxFour {
-    background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageFour.jpg');
-  }
-  
-  #boxFive {
-    background-image: url('http://www.ucdenver.edu/SiteCollectionImages/GridGallery/imageFive.jpg');
-  }
-  
+
   .full {
     float: none;
     height: 600px !important;
@@ -268,32 +253,6 @@ body {
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-    position: relative;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
-
-#myBtn:hover {
-    background: #ddd;
-    color: black;
 }
 
 
