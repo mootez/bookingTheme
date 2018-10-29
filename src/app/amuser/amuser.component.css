@@ -2,39 +2,9 @@
     text-align: center;
     height: 900px;
     width: 200px;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #111;
     overflow-x: hidden;
-
 }
-
-.sidenav a {
-    padding-left: 6px ;
-    padding-top: 6px; 
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-   
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-  hr {
-      color: white;
-      border: solid 1px ;
-  }
-
-
 
 .side-in {
     width: 100%;
@@ -54,15 +24,11 @@
     text-align: center;
 }
 .side-menu ul li{
- 
-    display: block;
-    
-    
+    display: block;    
 }
 #activeSide a{
     background-color: #FFFF00;
     color:black;
-    
 
 }
 .side-menu ul li a{
@@ -90,7 +56,8 @@
     display:none;
      transition: all .5s ease;
 	    -webkit-transition: all .5s ease;
-	    -moz-transition: all .5s ease;}
+        -moz-transition: all .5s ease;}
+        
 .side-menu ul li a:hover{
     color:#fff;
     border-right: 2px solid white;
