@@ -4,6 +4,7 @@
     width:10%;
     background-color: #111;
     overflow-x: hidden;
+    float: left;
 }
 
 .side-in {
