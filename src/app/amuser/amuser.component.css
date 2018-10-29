@@ -1,4 +1,5 @@
 .sidenav {
+    text-align: center;
     height: 900px;
     width: 200px;
     z-index: 1;
@@ -6,15 +7,17 @@
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+
 }
 
 .sidenav a {
-    padding: 6px 6px 6px 32px;
+    padding-left: 6px ;
+    padding-top: 6px; 
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
+   
 }
 
 .sidenav a:hover {
@@ -30,3 +33,57 @@
       color: white;
       border: solid 1px ;
   }
+
+
+
+.side-in {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 25px 0;
+}
+.side-menu{
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}
+.side-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.side-menu ul li{
+ 
+    display: block;
+    
+    
+}
+#activeSide a{
+    background-color: #FFFF00;
+    color:black;
+
+}
+.side-menu ul li a{
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid #96745e;
+    text-decoration: none;
+    font-size: 21px;
+    color: #ccc;
+
+	    transition: all .5s ease;
+	    -webkit-transition: all .5s ease;
+	    -moz-transition: all .5s ease;
+
+}
+.side-menu ul li:first-child a{ border-top: 1px solid #96745e;}
+.side-menu ul li a:after{position:absolute;right:0px;width:2px;height:100%; background:#fff;content:"";top:0px;display:none; transition: all .5s ease;
+	    -webkit-transition: all .5s ease;
+	    -moz-transition: all .5s ease;}
+.side-menu ul li a:hover{color:#fff;}
+.side-menu ul li a:hover:after{display:block;}
+
+
+
+  
